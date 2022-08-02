@@ -20,7 +20,7 @@ function features() {
 							Buy and sell popular digital currencies, keep track of them in the
 							one Place
 						</p>
-						<a href="">
+						<a href="/#">
 							{" "}
 							See Explained <i class="bi bi-arrow-right-short"></i>
 						</a>
@@ -32,7 +32,7 @@ function features() {
 							All cash balances are covered by FDIC insurance, up to a maximum
 							of $250,000
 						</p>
-						<a href="">
+						<a href="/#">
 							{" "}
 							See Explained <i class="bi bi-arrow-right-short"></i>
 						</a>
@@ -44,7 +44,7 @@ function features() {
 							Supports a variety of the most popular digital currencies and
 							always update.
 						</p>
-						<a href="">
+						<a href="/#">
 							{" "}
 							See Explained <i class="bi bi-arrow-right-short"></i>
 						</a>
@@ -56,7 +56,7 @@ function features() {
 							Easy to know how to invest and how cryptocurrency works; friendly
 							to newbie.
 						</p>
-						<a href="">
+						<a href="/#">
 							{" "}
 							See Explained <i class="bi bi-arrow-right-short"></i>
 						</a>
@@ -76,7 +76,7 @@ function features() {
 				<div className="col50 learn">
 					<button className="btn-green">
 						{" "}
-						<a href="#/">
+						<a href="/##/">
 							{" "}
 							Learn & Explore Now <i class="bi bi-arrow-right-short"></i>
 						</a>

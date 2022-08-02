@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from "react";
 import "./styles/style.css"
-import block from './images/block.png';
 import axios from 'axios';
 import Coin from "./component/coin";
 import Features from "./component/features";
@@ -24,9 +23,7 @@ const  [coins, setCoins] = useState([]);
 		.catch(error => console.log(error));
  });
 
-  const handleChange = (e) => {
-		setSearch(e.target.value);
-	};
+ 
 
 	const filteredCoins = coins.filter((coin) =>
 		coin.name.toLowerCase().includes(search.toLowerCase())
@@ -40,7 +37,7 @@ const  [coins, setCoins] = useState([]);
 			<section className="container">
 				<div className=" home-banner">
 					<div className=" welcome">
-						<h3></h3>
+						
 						<h1>Get Live Prices & Good exchange rate</h1>
 						<p>
 							Market Place for crypto collection non fungible token here
