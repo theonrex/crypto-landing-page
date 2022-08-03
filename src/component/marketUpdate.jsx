@@ -14,7 +14,7 @@ const market = ({
 }) => {
 	return (
 		<div>
-			<div className="market-container ">
+			<div className="market-container " data-aos="fade-right" id="price">
 				<div className="market-row">
 					<div class="grid-container">
 						<div class="grid-item">
@@ -35,7 +35,6 @@ const market = ({
 							<p className="market-symbol col14 market-Grid market-li ">
 								{symbol}
 							</p>
-
 						</div>
 						<div class="grid-item">
 							{" "}

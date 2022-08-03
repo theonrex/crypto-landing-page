@@ -4,7 +4,11 @@ import '../styles/style.css'
 function footer () {
     return (
 			<div>
-				<footer className="text-center text-lg-start   ">
+				<footer
+					className="text-center text-lg-start   "
+					data-aos="fade-up"
+					id="contact"
+				>
 					<section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
 						<div className="me-5 d-none d-lg-block container">
 							{/* <span>Get connected with us on social networks:</span> */}
@@ -118,8 +122,11 @@ function footer () {
 
 					<div className="text-center p-4">
 						© 2022 Copyright:
-						<a className="text-reset fw-bold" href="https://olawandearmstrong.com">
-							theonrex
+						<a
+							className="text-reset theonrex fw-bold"
+							href="https://olawandearmstrong.com"
+						>
+							Theonrex
 						</a>
 					</div>
 				</footer>

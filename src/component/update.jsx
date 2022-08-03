@@ -34,8 +34,8 @@ function Update() {
 
 	return (
 		<div>
-			<div className="market-flex container">
-				<div className="">
+			<div className="market-flex " >
+				<div className="container">
 					<div className="market-search">
 						<h1>Market Trend</h1>
 						<form>

@@ -5,7 +5,7 @@ import '../styles/style.css'
 function features() {
 	return (
 		<div>
-			<div className="container features rowX">
+			<div className="container features rowX" data-aos="zoom-in">
 				<h1 className="amazing"> CryptoCap Amazing Features</h1>
 				<p>
 					Explore sensational features to prepare your best investment in

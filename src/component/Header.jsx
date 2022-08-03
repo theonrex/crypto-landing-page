@@ -25,19 +25,16 @@ function Header() {
 							placement="end"
 						>
 							<Offcanvas.Header closeButton>
-								<Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-									
-								</Offcanvas.Title>
+								<Offcanvas.Title
+									id={`offcanvasNavbarLabel-expand-${expand}`}
+								></Offcanvas.Title>
 							</Offcanvas.Header>
 							<Offcanvas.Body>
 								<Nav className="justify-content-end flex-grow-1 pe-3">
-									<Nav.Link href="#action1">Home</Nav.Link>
-									<Nav.Link href="#action2">Price</Nav.Link>
-									<Nav.Link href="#action3">Exchanges</Nav.Link>
-									<Nav.Link href="#action4">News</Nav.Link>
-									<Nav.Link href="#action5">Contact</Nav.Link>
-
-								
+									<Nav.Link href="#home">Home</Nav.Link>
+									<Nav.Link href="#price">Price</Nav.Link>
+									<Nav.Link href="#news">News</Nav.Link>
+									<Nav.Link href="#contact">Contact</Nav.Link>
 								</Nav>
 							</Offcanvas.Body>
 						</Navbar.Offcanvas>

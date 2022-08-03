@@ -4,25 +4,29 @@ $white : white;
 $lowwhite : rgba(255, 253, 253, 0.58);
 
 body {
-    background-color: #000104;
-        background-image:
-            radial-gradient(at 47% 33%, hsl(39.91, 100%, 19%) 0, transparent 59%),
- radial-gradient(at 82% 65%, hsl(279.34, 100%, 14.000000000000002%) 0, transparent 55%);
-  color: $white;
+background-color: #000f28;
+    background-image:
+        radial-gradient(at 47% 33%, hsl(30.00, 0%, 0%) 0, transparent 59%),
+        radial-gradient(at 82% 65%, hsl(292.17, 100%, 10%) 0, transparent 55%); color: $white;
   background-repeat: no-repeat;
  font-family: 'Roboto', sans-serif;
 }
 //navlink
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    color: orange;
+}
 .navbar-toggler-icon {
     display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
+    width: 1em;
+    height: 1em;
     vertical-align: middle;
     background-image: var(--bs-navbar-toggler-icon-bg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    padding: 20px;
+    padding: 17px;
 }
 
 .navbar-toggler {
@@ -743,6 +747,22 @@ padding-top: 16px;
     padding: 0 0 0 50px;
 
 }
+.news-item p a {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    border-radius: 4px;
+    padding-top: 12px;
+}
+
+.news-item p a:hover {
+    color: orange;
+    font-size: 14px;
+  
+}
+
+a:hover{
+    color: white;
+}
 
 .news-text h1{
 font-size: 33px;
@@ -754,12 +774,21 @@ footer{
     background-color: transparent;
     color: white !important;
 }
+.theonrex {
+    
+    padding-left: 6px;
+}
+
 .me-3 {
     margin-right: 0 !important;
 }
 
 
 @media screen and (max-width: 1000px) {
+.market-flex .container{
+padding: 0 !important;
+}
+
     .home-banner {
             margin-top: 114px !important;
     
@@ -890,6 +919,13 @@ footer{
 .lighter {
    padding:0 44px;
 }
+.features .col20 {
+    background-color: #000104;
+    padding: 22px 44px;
+    margin: 22px auto;
+    border-radius: 12px;
+}
+
 }
 
 @media screen and (max-width: 580px) {
