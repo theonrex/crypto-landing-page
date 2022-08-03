@@ -26,7 +26,7 @@ function Header() {
 						>
 							<Offcanvas.Header closeButton>
 								<Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-									HavenSwap
+									
 								</Offcanvas.Title>
 							</Offcanvas.Header>
 							<Offcanvas.Body>

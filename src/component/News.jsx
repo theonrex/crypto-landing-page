@@ -34,19 +34,19 @@ function News() {
 					<h1>Crypto 101: Understanding Leverage And Margin Trading</h1>
 					<p>
 						With Crypto Trading growing in popularity all across the world, many
-						investors are beginning to  ..Read More...
+						investors are beginning to ..Read More...
 					</p>
 				</div>
 				<div class="news-item item3">
 					<img
-						src="https://res.cloudinary.com/unknownsatoshi/image/upload/v1/images/blog_images/bitcoin-g398ef2c9e_640_dm7rcc"
+						src="https://res.cloudinary.com/unknownsatoshi/image/upload/v1/images/blog_images/quantitatives-3IQ6EWltxx4-unsplash_urw2k6"
 						alt=""
 					/>
 					<header>Crypto Basic</header>
 					<h1>Crypto 101: Understanding Leverage And Margin Trading</h1>
 					<p>
 						With Crypto Trading growing in popularity all across the world, many
-						investors are beginning to  ..Read More...
+						investors are beginning to ..Read More...
 					</p>
 				</div>
 			</div>
@@ -66,7 +66,7 @@ function News() {
 				</div>
 				<div class="news-item item2">
 					<img
-						src="https://res.cloudinary.com/unknownsatoshi/image/upload/v1/images/blog_images/bitcoin-g398ef2c9e_640_dm7rcc"
+						src="https://res.cloudinary.com/unknownsatoshi/image/upload/v1/images/blog_images/crypto-futures-contracts_zc0olh"
 						alt=""
 					/>
 					<header>Crypto Basic</header>
@@ -90,7 +90,7 @@ function News() {
 				</div>
 				<div class="news-item item3">
 					<img
-						src="https://res.cloudinary.com/unknownsatoshi/image/upload/v1/images/blog_images/bitcoin-g398ef2c9e_640_dm7rcc"
+						src="https://res.cloudinary.com/unknownsatoshi/image/upload/v1/images/blog_images/bullbear_nw40di"
 						alt=""
 					/>
 					<header>Crypto Basic</header>

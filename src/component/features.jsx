@@ -20,9 +20,9 @@ function features() {
 							Buy and sell popular digital currencies, keep track of them in the
 							one Place
 						</p>
-						<a href="/#">
+						<a href="https://www.binance.com/en/blog/fiat/3-ways-to-manage-your-crypto-portfolio-with-profit-and-loss-calculations-421499824684903556">
 							{" "}
-							See Explained <i class="bi bi-arrow-right-short"></i>
+							More Details <i class="bi bi-arrow-right-short"></i>
 						</a>
 					</div>
 					<div className="col20">
@@ -32,9 +32,9 @@ function features() {
 							All cash balances are covered by FDIC insurance, up to a maximum
 							of $250,000
 						</p>
-						<a href="/#">
+						<a href="https://www.coingecko.com/">
 							{" "}
-							See Explained <i class="bi bi-arrow-right-short"></i>
+							More Details <i class="bi bi-arrow-right-short"></i>
 						</a>
 					</div>
 					<div className="col20">
@@ -44,9 +44,9 @@ function features() {
 							Supports a variety of the most popular digital currencies and
 							always update.
 						</p>
-						<a href="/#">
+						<a href="https://www.coingecko.com/">
 							{" "}
-							See Explained <i class="bi bi-arrow-right-short"></i>
+							More Details <i class="bi bi-arrow-right-short"></i>
 						</a>
 					</div>
 					<div className="col20">
@@ -56,9 +56,9 @@ function features() {
 							Easy to know how to invest and how cryptocurrency works; friendly
 							to newbie.
 						</p>
-						<a href="/#">
+						<a href="https://unknownsatoshi.com/blog">
 							{" "}
-							See Explained <i class="bi bi-arrow-right-short"></i>
+							More Details <i class="bi bi-arrow-right-short"></i>
 						</a>
 					</div>
 				</div>
@@ -76,7 +76,7 @@ function features() {
 				<div className="col50 learn">
 					<button className="btn-green">
 						{" "}
-						<a href="/##/">
+						<a href="https://unknownsatoshi.com/">
 							{" "}
 							Learn & Explore Now <i class="bi bi-arrow-right-short"></i>
 						</a>

@@ -10,7 +10,7 @@ function footer () {
 							{/* <span>Get connected with us on social networks:</span> */}
 						</div>
 
-						<div>
+						{/* <div>
 							<a href="/#" className="me-4 text-reset">
 								<i class="bi bi-instagram"></i>{" "}
 							</a>
@@ -29,7 +29,7 @@ function footer () {
 							<a href="/#" className="me-4 text-reset">
 								<i className="fab fa-github"></i>
 							</a>
-						</div>
+						</div> */}
 					</section>
 
 					<section className="">

@@ -23,10 +23,24 @@ body {
     background-position: center;
     background-size: 100%;
     padding: 20px;
+}
+
+.navbar-toggler {
     border-radius: 12px 5px 12px 5px;
     background-color: orange;
 }
 
+.btn-close {
+    box-sizing: content-box;
+    margin: 22px 0;
+    width: 2em;
+    height: 2em;
+border-radius: 12px 5px 12px 5px;
+    background-color: orange;
+    color: rgb(250, 248, 248);
+
+    opacity: 1;
+}
 .offcanvas {
     position: fixed;
     bottom: 0;
@@ -94,7 +108,10 @@ font-size: 23px;
 .block-img img{
     width: 80%;
 }
-.btn-primary{
+.btn-prime a{
+    font-size: 17px;
+}
+.btn-prime{
     margin-top: 33px;
     font-size: 16px;
     padding: 20px 45px;
@@ -102,7 +119,7 @@ font-size: 23px;
     border: solid orange;
 }
 
-.btn-primary:hover {
+.btn-prime:hover {
     margin-top: 33px;
     font-size: 16px;
     padding: 20px 45px;
@@ -135,7 +152,7 @@ a {
 .card {
     backdrop-filter: blur(3px) saturate(147%);
     -webkit-backdrop-filter: blur(3px) saturate(147%);
-    background-color: rgba(14, 1, 28, 0.37);
+    background-color: rgba(14, 1, 28, 0.7);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
 }
@@ -270,7 +287,6 @@ color: orange;
 }
 
 .coin-flex h1 span{
-    font-size: 16px;
     color: orange;
     font-weight: 600;
 }
@@ -290,6 +306,18 @@ background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.084); margin: 5px;
  padding: 13px;
  border-radius: 8px;
+}
+
+.coin-container:hover {
+    background: rgba(42, 6, 6, 0.251);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.057);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.084);
+    margin: 5px;
+    padding: 13px;
+    border-radius: 8px;
 }
 .red{
     color: red;
@@ -350,8 +378,8 @@ display: flex;
 
 //features
 .features{
-    margin-top: 123px;
-    margin-bottom: 110px;
+    margin-top: 60px;
+    margin-bottom: 70px;
 }
 
 .amazing{
@@ -393,7 +421,7 @@ background-color: white;
 .features .col20{
     background-color: #000104;
     padding: 22px 44px;
-    margin: 22px;
+    margin: 22px 22px;
     border-radius: 12px;
 }
 
@@ -465,7 +493,6 @@ form{
 {
     display: grid;
         grid-template-columns: 80% 20% ;
-        background-color: transparent;
             padding: 10px 0;
   
 }
@@ -499,7 +526,7 @@ form{
 .grid-container {
     display: grid;
     grid-template-columns: 10% 30% 15% 15% 15% 15%;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.641);
     
     
 }
@@ -733,10 +760,17 @@ footer{
 
 
 @media screen and (max-width: 1000px) {
+    .home-banner {
+            margin-top: 114px !important;
+    
+        }
+                .container-New .col50{
+                    padding: 10px 40px;
+                }
     .col18,
     .col20,
     .col50{
-        width: 100%;
+        width: 100% !important;
         
     }
 .coin-flex {
@@ -746,6 +780,7 @@ footer{
 }
         .coin-flex h1 {
             text-align: center;
+            font-size: 2.5vh;
         }
 
  .coin-row {
@@ -787,7 +822,7 @@ text-align: center;
     width: 60%;
     text-align: center;
 }
-.col50 {
+.create {
    
    
     padding: 44px 0 19px 0;
@@ -815,7 +850,7 @@ text-align: center;
 form {
     display: block;
 }
-.market-symbol {
+.market-Name {
     display: none;
 }
 .market-Name {
@@ -825,7 +860,6 @@ form {
 .grid-container {
     display: grid;
     grid-template-columns: 5% 20% 15% 15% 25% 20%;
-    background-color: transparent;
 }
 .news-container {
     display: grid;
@@ -853,9 +887,38 @@ footer{
     padding-left: calc(var(--bs-gutter-x) * .5);
     margin-top: var(--bs-gutter-y);
 }
+.lighter {
+   padding:0 44px;
+}
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 580px) {
+
+    .lighter {
+            padding: 0 20px;
+        }
+                .features {
+                    width: 80%;
+                    text-align: center;
+                }
+    .home-banner {
+            margin-top: 114px !important;
+           
+        }.acct{
+            padding: 0 33px;
+        }
+.news-item h1 {
+   
+    font-size: 26px;
+    padding-top: 12px;
+}
+
+                .started-h1 {
+                    font-size: 4vh;
+                    font-weight: bold;
+                    font-style: normal;
+                    text-transform: capitalize;
+                }
     .navbar{
         margin: auto 23px !important;
     }
@@ -866,7 +929,7 @@ footer{
             width: 90%;
         }
                 .welcome h1 {
-                    font-size: 45px;
+                    font-size: 3.5vh;
                     font-weight: bold;
                 }
   .coin-flex {
@@ -885,7 +948,7 @@ footer{
  }
  .market-li {
      width: 83px;
-     font-size: 9px;
+     font-size: 1.1vh;
      text-align: left;
  }
  .price-btn {
@@ -894,4 +957,82 @@ footer{
      border-radius: 5px;
      border: none;
  }
+ .amazing {
+    font-size: 3vh;
+ }
+ .fade-btn,
+ .trade{
+    display: none;
+ }
+ .grid-container {
+     display: grid;
+     grid-template-columns: 10% 20% 20% 20% 30% ;
+ }
 }
+
+@media screen and (max-width: 1195px) {
+    .col18 {
+            width: 40%;
+            float: left;
+            margin: 21px auto;
+        }
+                .coin-row {
+                    text-align: center;
+                    margin: auto;
+                }
+                                .market-symbol {
+                                    padding: 2px;
+                                }
+}
+
+@media screen and (max-width: 393px) {
+    .news-item h1 {
+
+        font-size: 16px;
+        padding-top: 12px;
+    }
+    
+
+    .news-text {
+        margin-top: -86px;
+        position: relative;
+        padding: 0 0 0 30px;
+    }
+        .grid-item {
+            padding: 5px 2px !important;
+            font-size: 9px !important;
+        }
+                .mx-auto {
+                    margin-right: 0 !important;
+                    margin-left: 0 !important;
+                }
+                                .col18 {
+                                    width: 40%;
+                                    float: left;
+                                    margin: 21px auto;
+                                }
+}
+@media screen and (max-width: 293px) {
+    .news-item h1 {
+
+        font-size: 12px;
+        padding-top: 12px;
+    }
+        .features .col20 {
+            background-color: #000104;
+            padding: 22px 14px;
+            margin: 22px auto;
+            border-radius: 12px;
+        }
+
+        .lighter {
+            padding: 0 1px;
+        }
+
+    .news-text {
+        margin-top: -56px;
+        position: relative;
+        padding: 0 0 0 30px;
+    }
+}
+

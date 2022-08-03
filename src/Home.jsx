@@ -37,7 +37,6 @@ const  [coins, setCoins] = useState([]);
 			<section className="container">
 				<div className=" home-banner">
 					<div className=" welcome">
-						
 						<h1>Get Live Prices & Good exchange rate</h1>
 						<p>
 							Market Place for crypto collection non fungible token here
@@ -45,7 +44,9 @@ const  [coins, setCoins] = useState([]);
 							here Market Place for
 						</p>
 
-						<button className="btn btn-primary"> Get Started</button>
+						<button className="btn btn-prime">
+							<a href="https://www.coingecko.com/"> Get Started</a>
+						</button>
 					</div>
 				</div>
 				<div className="market"></div>

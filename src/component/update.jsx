@@ -53,7 +53,7 @@ function Update() {
 						<div class="grid-item">Price</div>
 						<div class="grid-item">Change</div>
 						<div class="grid-item">market-cap</div>
-						<div class="grid-item">Trade</div>
+						<div class="grid-item trade">Trade</div>
 					</div>
 					{filteredMarkets.map((market) => {
 						return (
