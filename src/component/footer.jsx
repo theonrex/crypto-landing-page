@@ -44,7 +44,7 @@ function footer () {
 										<i className="fas fa-gem me-3"></i>Company name
 									</h6>
 									<p>
-										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Lorem dolor sit amet consectetur adipisicing elit.
 										Neque, nisi nulla officiis quidem deserunt iste ipsum
 										consequatur exercitationem dignissimos reiciendis officia et
 										cumque ipsam, necessitatibus, vitae harum id deleniti

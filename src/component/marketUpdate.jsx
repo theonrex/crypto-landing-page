@@ -55,7 +55,7 @@ const market = ({
 
 						<div class="grid-item">
 							<p className="market-marketcap market-cap market-li ">
-								${marketcap.toLocaleString()}
+								$ {marketcap.toLocaleString()}
 							</p>
 						</div>
 						<div class="grid-item fade-btn">
