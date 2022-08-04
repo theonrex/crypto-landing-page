@@ -6,7 +6,6 @@ function footer () {
 			<div>
 				<footer
 					className="text-center text-lg-start   "
-					data-aos="fade-up"
 					id="contact"
 				>
 					<section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
