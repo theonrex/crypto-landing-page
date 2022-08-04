@@ -22,7 +22,7 @@ function News() {
 
 					<div className="news-text">
 						<h1>All about investing in Crypto and related risks</h1>
-						<h6>crypto to basic</h6>
+						<h6>Crypto Education</h6>
 					</div>
 				</div>
 				<div class="news-item item2">
