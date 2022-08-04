@@ -14,7 +14,7 @@ const market = ({
 }) => {
 	return (
 		<div>
-			<div className="market-container " data-aos="fade-right" id="price">
+			<div className="market-container "  id="price">
 				<div className="market-row">
 					<div class="grid-container">
 						<div class="grid-item">
