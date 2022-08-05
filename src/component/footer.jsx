@@ -4,10 +4,7 @@ import '../styles/style.css'
 function footer () {
     return (
 			<div>
-				<footer
-					className="text-center text-lg-start   "
-					id="contact"
-				>
+				<footer className="text-center text-lg-start   " id="contact">
 					<section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
 						<div className="me-5 d-none d-lg-block container">
 							{/* <span>Get connected with us on social networks:</span> */}
@@ -40,14 +37,12 @@ function footer () {
 							<div className="row ">
 								<div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 									<h6 className="text-uppercase fw-bold mb-4">
-										<i className="fas fa-gem me-3"></i>Company name
+										<i className="fas fa-gem me-3"></i> Haven
 									</h6>
 									<p>
-										Lorem dolor sit amet consectetur adipisicing elit.
-										Neque, nisi nulla officiis quidem deserunt iste ipsum
-										consequatur exercitationem dignissimos reiciendis officia et
-										cumque ipsam, necessitatibus, vitae harum id deleniti
-										beatae!
+										Haven is a cryptocurrency news website and social network
+										focused on the most important cryptocurrency news, price,
+										charts and other information.
 									</p>
 								</div>
 

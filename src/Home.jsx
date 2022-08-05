@@ -63,9 +63,13 @@ const  [coins, setCoins] = useState([]);
 			<section className="container" id="home">
 				<div className=" home-banner">
 					<div className=" welcome">
-						<h1>Get Live Prices & Good exchange rate</h1>
+						<h1>Get Live Prices & Good Exchange Rate</h1>
 						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum possimus, at harum sit quidem unde porro eos perspiciatis architecto itaque quos nemo quis aspernatur, expedita aliquid. Tempore et sint quidem!
+							Haven is a cryptocurrency news website and social network focused
+							on the most important cryptocurrency news, price, charts and other
+							information. It covers all of the top coins in terms of daily
+							trading volume, including Bitcoin, Ethereum and more.
+							
 						</p>
 
 						<button className="btn btn-prime">

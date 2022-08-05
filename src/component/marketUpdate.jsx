@@ -14,7 +14,7 @@ const market = ({
 }) => {
 	return (
 		<div>
-			<div className="market-container "  id="price">
+			<div className="market-container " id="price">
 				<div className="market-row">
 					<div class="grid-container">
 						<div class="grid-item">
@@ -61,7 +61,10 @@ const market = ({
 						<div class="grid-item fade-btn">
 							<p className="market-marketcap market-li ">
 								<button className="price-btn">
-									<a href="/#"> Trade </a>
+									<a href="https://www.binance.me/en/activity/referral-entry/JLMBX?fromActivityPage=true&ref=LIMIT_JLM0VEZ2">
+										{" "}
+										Trade{" "}
+									</a>
 								</button>
 							</p>
 						</div>
